@@ -1,0 +1,14 @@
+1.下载git clone 
+https://github.com/apache/flink
+
+2.当前cmd:
+
+set MAVEN_OPTS="-Xmx4G"
+mvn clean install package -Dmaven.test.skip=true
+
+3.启动flink:
+
+E:\app-installtools\flink\flink-dist\target\flink-1.9-SNAPSHOT-bin\flink-1.9-SNAPSHOT\bin\start-cluster.bat
+
+
+Web interface by default on http://localhost:8081/.

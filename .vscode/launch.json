@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StreamWordCount",
+      "request": "launch",
+      "mainClass": "StreamWordCount",
+      "projectName": "FlinkForMe"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - WordCount",
+      "request": "launch",
+      "mainClass": "WordCount",
+      "projectName": "FlinkForMe"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - demo",
+      "request": "launch",
+      "mainClass": "demo",
+      "projectName": "FlinkForMe"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - KafkaMessageStreaming",
+      "request": "launch",
+      "mainClass": "KafkaMessageStreaming",
+      "projectName": "FlinkForMe"
+    }
+  ]
+}
